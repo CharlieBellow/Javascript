@@ -4,7 +4,7 @@
 
 console.log(["a", "b", "c"].length); 
 
-// os elementos do array odem ser qualquer tipo de dados, inclusive uma função
+// os elementos do array podem ser qualquer tipo de dados, inclusive uma função
 
 console.log([
   "a",

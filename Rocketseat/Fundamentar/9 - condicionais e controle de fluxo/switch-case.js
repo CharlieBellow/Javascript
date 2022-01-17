@@ -3,7 +3,17 @@
 
 // como se escreve: 
 
-// switch ()
+/* switch () {
+  case x:
+// faça isso
+  break;
+case y:
+//faça aquilo
+break;
+default:
+break;
+}
+*/
 
 /*
 let expression = 'a'
@@ -47,7 +57,7 @@ function calculate (number1, operator, number2) {
       console.log('não implementado');
       break;
   }
-  return result
+ return result
 }
 
 console.log(calculate(4, '+', 8))

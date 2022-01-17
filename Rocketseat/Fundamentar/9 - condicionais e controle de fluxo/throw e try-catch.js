@@ -15,10 +15,12 @@ function sayMayName(name = '') {
 try {
   sayMayName('Mayk')
 } catch (e) {
-  console.log(e);
+  console.log(e); // se colocar e.message, ele dá só a mensagem de erro sem exibir muita coisa
 }
 console.log('após o try... catch');
 
 //obs: se eu não coloco o try, catch eu tenho um erro de execução 'uncaught' (não pegou) 
 
 // serve pra capturar erros e perceber falhas na aplicação... mas o que é isso na prática? tem exemplo?
+
+// capturar é impedir que o código exploda e pare o programa todo...

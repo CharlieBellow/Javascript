@@ -7,7 +7,8 @@ console.log('Revisão é mãe do aprendizado');
 // se eu quiser repetir essas frases novamente, eu uso a função
 
 // a função explica o que o código está fazendo e repete os codigos.
-/* serve para:
+/* 
+  serve para:
   * agrupamento de códigos 
   * para reutilizar código
   * para dar significado/sentido a um bloco de código
