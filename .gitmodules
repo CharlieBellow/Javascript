@@ -1,3 +1,6 @@
 [submodule "DIO - Javascript/Javascript - Introdução - DIO-stephany nusch/contador2"]
 	path = DIO - Javascript/Javascript - Introdução - DIO-stephany nusch/contador2
 	url = git@github.com:CharlieBellow/Contador.git
+[submodule "DIO - Javascript/O que danado é javascripty - Diana Martine/Calculadora-Javascript"]
+	path = DIO - Javascript/O que danado é javascripty - Diana Martine/Calculadora-Javascript
+	url = git@github.com:CharlieBellow/Calculadora-Javascript.git
