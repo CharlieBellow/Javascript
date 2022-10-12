@@ -36,6 +36,6 @@ let indexHTML = techs.indexOf("html")
 console.log(indexHTML);
 let indexJS = techs.indexOf("js")
 console.log(indexJS);
-techs.splice(indexHTML, indexJS) // aqui eu descobri o index de dois elementos que são o começo e o final de um intervalo que eu queria tirar. então pedi pra remover todo o intervalo de um até o outro.. nesse exemplo o interalo era html, css e js que são linguagens do front, e deixei só as o back-end. essa "API" pode substituir o slice em alguns casos
+techs.splice(indexHTML, indexJS) // aqui eu descobri o index de dois elementos que são o começo e o final de um intervalo que eu queria tirar. então pedi pra remover todo o intervalo de um até o outro.. nesse exemplo o interalo era html, css e js que são linguagens do front, e deixei só as do back-end. essa "API" pode substituir o slice em alguns casos
 console.log(techs);
 

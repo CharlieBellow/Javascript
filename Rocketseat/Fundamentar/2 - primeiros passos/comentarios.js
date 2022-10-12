@@ -12,7 +12,19 @@ console.log("Bem vindos ao Starter!") // escreve alguma mensagem no DevToos
 
     // ctrl + b = abre/fecha explorador de arquivo
 
-  /* 
+  /*
   <section id="header"></section> <!--setion#reader se escrever assim, como no CSS ele transforma em HTML..-->
   */
 
+// se apertar ctrl + shift + seta pra cima ou pra baixo, você consegue mover a linha em que o cursor está pra baixo ou pra cima.. e ele move o código pra cima outra baixo, ou seja, se quiser colocar essa linha de código depois da que está embaixo é só baixar que ele inverte as linhas. é mesmo que selecionar a linha e arrastar
+//se usar com o ctrl + [ou] consegue mexer na identação aí da pra mover o código sem precisar do mouse ou usar o backscape ou enter
+
+
+// selecionando vários nomes de classes
+/* quando for mudar o títulos das classes é só dar 2 clicks para selecionar a palavra e depois apertar ctrl+D e o vs code já seleciona as próximas palavras iguais para vc editar tudo de uma vez. */
+
+// pra criar vários cursores é só apertar shift + alt + seta pra baixo ou pra cima ele cria vários cursores.
+// pra rodar o código: ctrl + alt + n 
+// pra abri o terminal do vs code: alt + shift + T
+
+/*  apertando Shift + Alt eu crio vários cursores */

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>TITULO</h1>
+  <P>PARAGRAFO</P>
+  <div>dados</div>
+
+  <script>
+    console.log(this);
+
+/* 
+  let exibeConteudo = function() {
+            console.log(this);
+            alert(this.textContent);
+        };
+*/
+
+    /* Um teste demonstra que nosso código deixa de funcionar. Primeiro, independente do elemento que eu clique, o this que é impresso no console é window e não aquele elemento do DOM. Segundo, como this é window e ele não possui a propriedade textContent, é exibido undefined para o usuário. Esse problema serve para demonstrar que uma arrow function vai além de uma sintaxe mais enxuta para declararmos funções.
+
+Diferente de uma função, que possui um this dinâmico, uma arrow function possui um this estático, ou seja, que nunca muda e que é determinado no momento em que é declarado! Veja que quando declararmos nossa arrow function, ela vai considerar o this do local onde é declarada. Sendo assim, como o this dentro da tag <script> é window, ela adotará window. */
+    let exibeContetudo = () => {
+      console.log(this);
+      alert(this.textContent)
+  }
+
+    $ = document.querySelector.bind(document);
+    $('h1').addEventListener('click', exibeContetudo);
+    $('p').addEventListener('click', exibeContetudo);
+    $('div').addEventListener('click', exibeContetudo)
+  </script>
+</body>
+</html>
